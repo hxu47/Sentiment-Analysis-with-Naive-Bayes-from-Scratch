@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.8.6, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /Users/parrt/opt/anaconda3/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/parrt/grading/msds621/S21/bayes-hxu47
+plugins: anyio-2.0.2
+collecting ... collected 13 items
+
+test_bayes.py::test_load PASSED                                          [  7%]
+test_bayes.py::test_vocab PASSED                                         [ 15%]
+test_bayes.py::test_vectorize_docs PASSED                                [ 23%]
+test_bayes.py::test_vectorize PASSED                                     [ 30%]
+test_bayes.py::test_simple_docs_error PASSED                             [ 38%]
+test_bayes.py::test_unknown_words_vectorize PASSED                       [ 46%]
+test_bayes.py::test_unknown_words_training_error PASSED                  [ 53%]
+test_bayes.py::test_training_error PASSED                                [ 61%]
+test_bayes.py::test_kfold_621 PASSED                                     [ 69%]
+test_bayes.py::test_kfold_sklearn_vs_621 PASSED                          [ 76%]
+test_hidden.py::test_load PASSED                                         [ 84%]
+test_hidden.py::test_training_error PASSED                               [ 92%]
+test_hidden.py::test_kfold_sklearn_vs_621 PASSED                         [100%]
+
+============================= 13 passed in 20.92s ==============================
